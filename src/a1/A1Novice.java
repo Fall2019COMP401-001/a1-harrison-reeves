@@ -30,7 +30,7 @@ public class A1Novice {
 				total = total + item_total_price;
 			}
 			
-			System.out.println(first.substring(0,1) + ". " + last + " " + String.format("%.2f", ((double) total) ));
+			System.out.println(first.substring(0,1) + ". " + last + ": " + String.format("%.2f", ((double) total) ));
 			
 			total = 0;
 			
